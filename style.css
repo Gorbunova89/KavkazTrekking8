@@ -43,6 +43,21 @@ h2 {
     grid-area: header;
     display: grid;
     grid-template: 1fr / 1fr minmax(auto, 300px) minmax(auto, 1200px) 1fr;
+    /* располанаем элементы по центру в грид контейнере */
+    align-items: center;
+    /* располанаем элементы в гридконтейнере по центру по другой оси */
+    justify-items: center;
+    
+}
+
+.header_logo {
+    width: 160px;
+    height: 160px;
+    border-radius: 40%;
+    /* background-color: aliceblue; */
+    grid-column: 2 / 3;
+    background-image: url(imeret/62.png);
+    background-size: contain;
 }
 
 .header_menu {
@@ -55,6 +70,14 @@ h2 {
 
 .header_link {
     border: 1px solid brown;
+}
+
+.header_list li {
+
+}
+
+.header_list a {
+    font-size:  18px;
 }
 
 .main {
