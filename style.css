@@ -61,8 +61,8 @@ h2 {
     display: grid;
     grid-area: main;
     grid-template:1fr / 1fr minmax(auto, 300px) minmax(auto, 1200px) 1fr;
-    padding: 30px 0px;
-    border: 3px solid brown;
+    padding: 30px 0px 50px 0px;
+    /* border: 3px solid brown; */
 }
 
 .sidebar {
@@ -116,13 +116,9 @@ h2 {
     object-fit: cover;
 }
 
-.section_1, .section_2, .section_3 {
+.section_1, .section_2 {
     margin-bottom: 80px;
-    border: 3px solid blue;
-}
-
-.section_2 {
-    margin-bottom: 50px;
+    /* border: 3px solid blue; */
 }
 
 .footer {
